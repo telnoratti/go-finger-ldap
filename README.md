@@ -13,6 +13,14 @@ The example config should work with only a few modifications:
 5. Change the `objectClasses` to match your LDAP tree. This will take some knowledge of your LDAP setup as these tend to change between vendors.
 6. Add any rules you would like. In particular uupid likely needs to change to match your LDAP tree's username field.
 
+You can build the project with `go build`, but you'll want to set capabilities on the binary if it'll be binding to port 79.
+
+    setcap 'cap_net_bind_service=+ep' go-finger-ldap
+
+Then simply run the program and pass it the config file.
+
+    ./go-finger-ldap -f example.yaml
+
 # Configuration
 The example configuration file provides all of the values that can be parsed.
 It is organized into a hierarchy of global settings, an array of servers with
