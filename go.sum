@@ -1,0 +1,11 @@
+github.com/jessevdk/go-flags v1.4.0 h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA=
+github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
+github.com/mitchellh/go-finger v0.0.0-20170709001451-be12f0ff8b97 h1:FQ230TpgDLw7s/V5gOY0lSE+KgZzNnSX+/An2kyzqOc=
+github.com/mitchellh/go-finger v0.0.0-20170709001451-be12f0ff8b97/go.mod h1:ZQVrI8EDYdnXy5EZl+dzJ9RdrSZjC78jzP1/rV4r910=
+gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d h1:TxyelI5cVkbREznMhfzycHdkp5cLA7DpE+GKjSslYhM=
+gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d/go.mod h1:cuepJuh7vyXfUyUwEgHQXw849cJrilpS5NeIjOWESAw=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/ldap.v3 v3.0.0-20181126164332-5c2c0f997205 h1:a3+w42N8T8PbRnx/bVRl+1jCJVYzC8hZbPqAz5cTJ10=
+gopkg.in/ldap.v3 v3.0.0-20181126164332-5c2c0f997205/go.mod h1:oxD7NyBuxchC+SgJDE1Q5Od05eGt29SDQVBmV+HYbzw=
+gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
+gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=

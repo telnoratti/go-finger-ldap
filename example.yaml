@@ -1,0 +1,128 @@
+bindaddress: "[::]:79"
+servers: 
+  - name: VT LDAP
+    ldaphost: directory.vt.edu
+    ldapport: 389
+    basedn: ou=People,dc=vt,dc=edu
+    tls: true
+    starttls: true
+    tlscacert: |
+      -----BEGIN CERTIFICATE-----
+      MIIGMTCCBBmgAwIBAgIBADANBgkqhkiG9w0BAQUFADBVMQswCQYDVQQGEwJVUzER
+      MA8GA1UECBMIVmlyZ2luaWExEzARBgNVBAcTCkJsYWNrc2J1cmcxHjAcBgNVBAoT
+      FVZpcmdpbmlhIFRlY2ggUm9vdCBDQTAeFw0wMzA0MTAxOTI3NDlaFw0zMzA0MDIx
+      OTI3NDlaMFUxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhWaXJnaW5pYTETMBEGA1UE
+      BxMKQmxhY2tzYnVyZzEeMBwGA1UEChMVVmlyZ2luaWEgVGVjaCBSb290IENBMIIC
+      IDANBgkqhkiG9w0BAQEFAAOCAg0AMIICCAKCAgEAoEQ0nc/RQilffiiqIUA3DrXA
+      DTq7wDcZwjyTLMpEAkbxkypYaEsYYwKUZMCZ+GutNd9AJZuAFA94kADVGFJxapgm
+      45poYnhUzRmZDATFTiESLLqXDGS2bG2KkiUspMaJ3o2/f1pUwxGoVV4fO6d+PfT3
+      P5v6WY31I2AGKwc0f0MLhTavHi3TpQ3MJWUvz134bS+S41ptOw6wMysFIlFAkviG
+      a0Km6rhzWFAfteiMLSr/XHiJzMDfvJyAZoWD1kIyml9u2b649cfhYKZF3b/QP294
+      pYqCWWn4i8e/6tlfQNNc2+rlNfEo8Y926j5V15e3CuwXp0PHQxMFf+Q3Ap2qEGSQ
+      09T2GF4qnVKBoLBcqWW7jGdH9vuqShiN55os+bzqZir6xO/ml+9IMjWtIq0CTOzm
+      GopQK3Xazne6LLT2UTF9cHEawaF4eiL00zKIa0qPsilXfUyFutCHmzdBjyWWvz/S
+      VG7H2B9UY1DlDrbx+3EwGK/ZjT2ioluDaR1RM/KPkRNuJIn2uOnNvnDHuTxUfZlV
+      7IsHWhRCeAYReA0UzHxlO0dfYQ0e76+RYqj1N+ouYyxk4AJps6yVj05ouNpe/euV
+      MTci+Bo3STz2cxYpSsNmJPwf+ypMvn5KXcgap8LR0a+V/7u4FtcN3mJ6iFGv+WrJ
+      IeUucqg/LuuHtZSwVwkCAQOjggEMMIIBCDAPBgNVHRMBAf8EBTADAQH/MB0GA1Ud
+      DgQWBBREkRQvOJoo2j5KJjyYgKP894htpzB9BgNVHSMEdjB0gBREkRQvOJoo2j5K
+      JjyYgKP894htp6FZpFcwVTELMAkGA1UEBhMCVVMxETAPBgNVBAgTCFZpcmdpbmlh
+      MRMwEQYDVQQHEwpCbGFja3NidXJnMR4wHAYDVQQKExVWaXJnaW5pYSBUZWNoIFJv
+      b3QgQ0GCAQAwCwYDVR0PBAQDAgEGMEoGA1UdIARDMEEwPwYMKwYBBAG0aAUCAQEB
+      MC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cucGtpLnZ0LmVkdS9yb290Y2EvY3Bz
+      LzANBgkqhkiG9w0BAQUFAAOCAgEAfZNhdizyxodATfZdhEd7GEqVsBBhH1gqwTZd
+      h4Ye+apiBYThhy4hHZ2xvO7/9X79qYSIhZEpYqtrPC2SSSW+rjKSoylpqL0mn4kF
+      lzH85v9uujOlu3McEsMprmlWSyA6qXwtAbIiEYsW7lgeqiMt8HAY0wuLeJgaVW//
+      846ZNfE62xW8OXnvyEriPyzMPOl27ypYX1OkOJeFhjsoVD8NpaVXJmijZIlSngBt
+      QkmvS+F0ws+1SdHZv5CV8H88OHJ0Xq2UY0QUyjmtYHjLz+Xhu5nceWy8BCAuFqqc
+      UNGuEutzZDGUoTM6LlzosMGZP/wxziqz0wLWxH60NHKMC9HMJqua6xpnKkEGyg5b
+      vRiTvWhUpVc9BKSrZ+EWs0XvWicFW9ZvLv7qGVEEAyg4FaeEjUJzJYGHscmETxOE
+      QUb+msybycNfYsxvZtfIgmgG96Ah3JrgBwiq/P956rL3aFqqwzBE7rsWi1theBP6
+      1gxxAhmJgG4fCDJqC2NXCAeYR9UMusozOI34s/WzEHSGe74TNSQkpK31JwWzlelY
+      qQx/2GjD555meQMvID0TJv4ku3OUkD/x3GHJr1gJimPyU1HgU50gBd+ITwZdBumM
+      LxlIHG3eeeq6s0uuPfPuZhFU1hP4wtDc3R86yNrkxYhhWTIWiYBzGrTmYsQgfSDh
+      PDlZQfY=
+      -----END CERTIFICATE-----
+    lookups:
+      - name: Person
+        objectClasses:
+          - person 
+          - virginiaTechPerson
+        attributes:
+          - name: jpegPhoto
+            prettyname: View Photo
+          - name: audio
+            prettyname: Play Sound
+          - name: cn
+            prettyname: Also Known As
+            bulk: true
+          - name: title
+            prettyname: Title
+            bulk: true
+          - name: department
+            prettyname: Department
+            bulk: true
+          - name: departmentNumber
+            prettyname: Department Number
+          - name: postalAddress
+            prettyname: Work Address
+          - name: mailStop
+            prettyname: Mail Stop
+          - name: telephoneNumber
+            prettyname: Work Phone
+          - name: facsimileTelephoneNumber
+            prettyname: Fax Number
+          - name: pager
+            prettyname: Pager Number
+          - name: localPostalAddress
+            prettyname: Local Address
+          - name: localPhone
+            prettyname: Local Phone
+          - name: homePostalAddress
+            prettyname: Home Address
+          - name: homePhone
+            prettyname: Home Phone
+          - name: uupid
+            prettyname: User ID (uupid)
+            bulk: true
+          - name: mail
+            prettyname: E-Mail Address
+            bulk: true
+          - name: description
+            prettyname: Description
+          - name: drink
+            prettyname: Favorite Beverage
+          - name: seeAlso
+            prettyname: See Also
+          - name: lastModifiedTime
+            prettyname: Last Modified
+          - name: lastModifiedBy
+            prettyname: Modified By
+          - name: vtAuthNID
+            prettyname: vtAuthNID
+          - name: uid
+            prettyname: User Number
+            bulk: true
+        rules:
+          - name: phone number
+            regex: '^[0-9][0-9\-]*$'
+            filter: (|(telephoneNumber=*%v)(localPhone=*%v))
+          - name: uid
+            regex: ^[0-9][0-9\-]*$
+            filter: (uid=%v)
+          - name: email address
+            regex: "@"
+            filter: (mail=%v)
+          - name: uupid
+            regex: .+
+            filter: (uupid=%v)
+          - name: name
+            regex: .+
+            filter: (|(cn=%v)(sn=%v)(givenName=%v))
+          - name: partial uupid
+            regex: .+
+            filter: (uupid=*%v*)
+          - name: partial name
+            regex: .+
+            filter: (cn=*%v*)
+            split: true
